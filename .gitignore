@@ -1,3 +1,7 @@
+artillery/report.json.html
+artillery/report.json
+artillery/node_modules
+.idea
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar

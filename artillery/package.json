@@ -1,0 +1,16 @@
+{
+  "name": "artillery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "artillery": "^1.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/artillery/bin/artillery run --output report.json ./cpu-test.yaml",
+    "report": "./node_modules/artillery/bin/artillery report ./report.json"
+  },
+  "author": "",
+  "license": "ISC"
+}
